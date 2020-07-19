@@ -1,0 +1,232 @@
+body {
+    display: block;
+    background-size: 40px 40px; 
+    background-image:
+      linear-gradient(to right, #faf4e6 1px, transparent 1px),
+      linear-gradient(to bottom, #faf4e6 1px, transparent 1px);
+    background-color: #cce3de;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.container {
+    padding-top: 20px;
+    border-bottom: 1px solid #343a40;
+    border-left: 1px solid #343a40;
+    border-right: 1px solid #343a40;
+    background: #faf4e6;
+}
+  
+.top {
+    margin-top: 25px;
+    padding: 10px;
+    width: 100%;
+    background: #dee2ff;
+    border: 1px solid #343a40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #feeafa;
+    border: 1px solid #343a40;
+    border-radius: 50%;
+    display: inline-block;
+}
+  
+#navbar {
+    font-family: 'Poppins', sans-serif;
+    border-color: #343a40;
+    border: 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav .navbar-nav li a{
+    color: #343a40 !important;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+li {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#sections {
+    float: left;
+    color: #343a40;
+}
+
+.content {
+    padding: 10px;
+    background: #faf4e6;
+}
+
+#about {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.typewriter h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    text-align: center;
+    max-width: 550px;
+    overflow: hidden;
+    border-right: .15em solid #343a40; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #343a40; }
+}
+
+.wrapper {
+    display: flex;
+}
+
+#prof {
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 25px;
+    height: 250px;
+    width: 250px;
+}
+
+#intro {
+    margin-top: 25px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #343a40;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #343a40;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #343a40;
+}
+
+#experience {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+span {
+    background-color: #faf4e6;
+}
+
+.span {
+    flex: 0 0 80%;
+    max-width: 90%;
+}
+
+.card:hover {
+    border: none;
+    bottom: 10px;
+    right: 10px;
+    transition: top ease-in 1.0s;
+    box-shadow: 10px 10px #343a40;
+    border-radius: 0px;
+}
+
+.col-md-4 {
+    flex: 0 0 10%;
+    border-right: 1px solid #343a40;
+}
+
+.col-md-8 {
+    height: 200px;
+    flex: 0 0 80%;
+    max-width: 90%;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.card-title{
+    display: inline;
+}
+
+.left-text {
+    display: inline;
+}
+
+.right-text {
+    float: right;
+}
+
+#projects {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.card-img-top {
+    border-bottom: 1px solid #343a40;
+    background-color: white;
+}
+
+.card-footer {
+    height: 60px;
+    font-size: 25px;
+}
+
+#mysql {
+    height: 40px;
+    width: 40px;
+}
+
+#mongodb {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+#twilio {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+#xcode {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+
+
