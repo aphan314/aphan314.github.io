@@ -5,6 +5,8 @@ body {
       linear-gradient(to right, #faf4e6 1px, transparent 1px),
       linear-gradient(to bottom, #faf4e6 1px, transparent 1px);
     background-color: #cce3de;
+    padding: 0; 
+    margin: 0;
 }
 
 * {
@@ -12,7 +14,7 @@ body {
 }
   
 .container {
-    padding-top: 20px;
+    padding-top: 2.5%;
     border-bottom: 1px solid #343a40;
     border-left: 1px solid #343a40;
     border-right: 1px solid #343a40;
@@ -20,8 +22,8 @@ body {
 }
   
 .top {
-    margin-top: 25px;
-    padding: 10px;
+    margin-top: 2.5%;
+    padding: 1%;
     width: 100%;
     background: #dee2ff;
     border: 1px solid #343a40;
@@ -42,24 +44,24 @@ body {
     font-family: 'Poppins', sans-serif;
     border-color: #343a40;
     border: 1px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 nav .navbar-nav li a{
     color: #343a40 !important;
     font-weight: 500;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-item {
     font-size: 25px;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 li {
-    margin: 0px;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
@@ -70,7 +72,7 @@ li {
 }
 
 .content {
-    padding: 10px;
+    padding: 1%;
     background: #faf4e6;
 }
 
@@ -108,23 +110,23 @@ li {
 }
 
 #prof {
-    margin-top: 60px;
-    margin-right: 50px;
-    margin-left: 25px;
-    height: 250px;
-    width: 250px;
+    margin-top: 6%;
+    margin-right: 5%;
+    margin-left: 2.5%;
+    height: 25%;
+    width: 25%;
 }
 
 #intro {
-    margin-top: 25px;
+    margin-top: 2.5%;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
     color: #343a40;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 
 h2, h3, h4, h5, h6 {
@@ -213,19 +215,19 @@ img {
 #mongodb {
     height: 30px;
     width: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 0.5%;
 }
 
 #twilio {
     height: 40px;
     width: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 0.5%;
 }
 
 #xcode {
     height: 30px;
     width: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 0.5%;
 }
 
 
