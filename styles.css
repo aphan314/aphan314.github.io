@@ -15,6 +15,7 @@ body {
   
 .container {
     padding-top: 2.5%;
+    width: 100%;
     border-bottom: 1px solid #343a40;
     border-left: 1px solid #343a40;
     border-right: 1px solid #343a40;
@@ -57,7 +58,7 @@ nav .navbar-nav li a{
 
 .nav-item {
     font-size: 25px;
-    margin-right: 25px;
+    padding-right: 25px;
 }
 
 li {
@@ -72,11 +73,12 @@ li {
 }
 
 .content {
-    padding: 1%;
     background: #faf4e6;
 }
 
 #about {
+    position: absolute;
+    margin-top: 1%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -142,6 +144,8 @@ p {
 #experience {
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 45%;
+    position: absolute;
 }
 
 span {
@@ -194,7 +198,9 @@ img {
 #projects {
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 103%;
     margin-bottom: 5%;
+    position: absolute;
 }
 
 .card-img-top {
