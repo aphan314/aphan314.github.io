@@ -208,6 +208,10 @@ img {
     background-color: white;
 }
 
+.card-body {
+    height: 175px;
+}
+
 .card-footer {
     height: 60px;
     font-size: 25px;
